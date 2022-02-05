@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "youtube-chop",
+  "version": "0.01",
+  
+  "description": "Samples youtube.",
+
+  "content_scripts": [
+          {
+            "matches": ["<all_urls>"],
+            "js": ["youtube-chop.js"]
+          }
+  ],
+  "permissions": [
+          "tabs"
+  ]
+}
